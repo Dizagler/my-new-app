@@ -4,7 +4,7 @@ import Posts from './Posts/Posts';
 
 const Profile = () => {
   return (
-  <div className={s.content}>
+  <div>
     <div>
     <img src="https://media.publit.io/file/Snow-background-night.png" alt="" />
      </div>
