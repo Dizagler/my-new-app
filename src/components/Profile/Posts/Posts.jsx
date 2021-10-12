@@ -4,11 +4,8 @@ import Post from './Post/Post';
 
 const Posts = (props) => {
 
-  let posts = [
-    { id: 1, message: 'Hi its my firs post =)', likesCount: 12 },
-    { id: 2, message: 'Whats up bro ', likesCount: 11 },
-    ]
-  let postsElements = posts.map(p => <Post message={p.message} likes={p.likesCount} />)
+
+  let postsElements = props.posts.map(p => <Post message={p.message} likes={p.likesCount} />)
 
 
   return (

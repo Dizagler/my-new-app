@@ -4,6 +4,6 @@
 }
 
 .header img {
-  width: 40px;
-  height: auto;
+  max-height: 60px;
+  
 }
