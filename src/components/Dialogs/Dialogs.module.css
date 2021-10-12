@@ -8,8 +8,9 @@
 .dialogsItems .active{
   color: gold;
 }
-.dialog{
- 
+.dialog a{
+ text-decoration: none;
+ color: white;
 }
 .messages{
  padding: 10px;
