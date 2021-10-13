@@ -7,9 +7,9 @@ import s from './Navbar.module.css';
 
 const Navbar = (props) => {
 
-  let friendsElements = props.state.friends.map(f => <FriendsBlock friends={f.name} id={f.id} />);
+  let friendsElements = props.state.friends.map(f => <FriendsBlock name={f.name} id={f.id} message={f.message} />);
 
-    return <nav className={s.nav}>
+  return <nav className={s.nav}>
     <div className={s.item}>
       <NavLink to='/profile' activeClassName={s.active}>Profile</NavLink>
     </div>
@@ -30,10 +30,10 @@ const Navbar = (props) => {
       <NavLink to='friends' activeClassName={s.active}>Friends</NavLink>
       <div>
         {friendsElements}
-      </div>   
+      </div>
     </div>
-    </nav>
-  
+  </nav>
+
 }
 
 
