@@ -28,7 +28,7 @@ dialogsPage: {
 friendsNav: {
   friends: [
       { id: 1, name: 'Andrey'},
-      { id: 2, name:  'Dima'},
+      { id: 2, name: 'Dima'},
       { id: 3, name: 'Ira' },
 ]
 }

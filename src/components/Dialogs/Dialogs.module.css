@@ -1,6 +1,7 @@
 .dialogs{
  display: grid;
  grid-template-columns: 2fr 10fr;
+ position: relative;
 }
 .dialogsItems{
  padding: 10px;
@@ -17,6 +18,15 @@
  padding: 10px;
  font-size: 18px;
 }
-.message{
-
+.messageAdd{
+ outline: none;
+ -moz-appearance: none;
+ resize: none;
+ overflow: auto;
+ }
+.messageEnter {
+  margin-top: 15px;
+  /* position:absolute;
+  bottom:0;
+  top: 140%; */
 }
