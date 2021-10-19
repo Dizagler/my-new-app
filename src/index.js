@@ -9,10 +9,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 let rerenderEntireTree = (state) => {
+  debugger;
  ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
-    <App state={state} addMessageDialog={store.addMessageDialog.bind(store)} dispatch ={store.dispatch.bind(store)}  updateNewMessage={store.updateNewMessage.bind(store)} />
+    <App state={state}  dispatch ={store.dispatch.bind(store)} />
     </React.StrictMode>
     </BrowserRouter>,document.getElementById('root')
   ); 
